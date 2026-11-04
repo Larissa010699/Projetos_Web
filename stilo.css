@@ -1,0 +1,110 @@
+/* CONFIGURAÇÃO GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e9d5ff, #c4b5fd);
+    min-height: 100vh;
+    padding: 40px 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* TÍTULO */
+h1 {
+    color: #581c87;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+/* LARGURA DOS ELEMENTOS */
+body > h1,
+body > label,
+body > input,
+body > h3,
+body > p {
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* CAMPOS */
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    color: #4c1d95;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #c4b5fd;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+input[type="number"]:focus {
+    border-color: #7c3aed;
+    box-shadow: 0 0 6px #c4b5fd;
+}
+
+/* BOTÕES */
+button {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #7c3aed;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #581c87;
+    transform: translateY(-3px);
+}
+
+/* RESULTADO */
+h3 {
+    color: #581c87;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+p {
+    background-color: #f3e8ff;
+    color: #4c1d95;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* CELULAR */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 23px;
+    }
+
+    body {
+        padding: 25px 15px;
+    }
+
+    button {
+        padding: 10px 18px;
+    }
+}
