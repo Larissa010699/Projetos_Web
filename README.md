@@ -1,2 +1,2 @@
-# projetos_JS
+# projetos_web
 Projetos desenvolvidos com HTML + CSS + Javascript
